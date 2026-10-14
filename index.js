@@ -74,7 +74,7 @@ let derulos = {
 }
 
 app.get('/about',(request,response)=>{
-    response.send("Jason Joel Desrouleaux, known professionally as Jason Derulo, is an American singer, songwriter, and dancer. Since the start of his solo recording career in 2009, he has sold over 250 million singles worldwide and has achieved fourteen platinum singles in the US. His signature melodic intro tag became one of the most recognizable music tropes of the 2010s.");
+    response.send("Jason Joel Desrouleaux, known professionally as Jason Derulo, is an American singer, songwriter, and dancer. Since the start of his solo recording career in 2009, he has sold over 250 million singles worldwide and has achieved fourteen platinum singles in the US. His signature melodic intro tag—where he sings his name—became one of the most recognizable music tropes of the 2010s.");
 })
 
 app.get('/derulos',(request,response)=>{
